@@ -12,8 +12,6 @@
 @import './mixins/positions';
 @import './mixins/flexbox';
 
-@import './layouts/grids';
-
 @import './modules/tags';
 @import './modules/avatars';
 @import './modules/star-ratings';
@@ -22,3 +20,6 @@
 @import './modules/forms';
 @import './modules/icons';
 @import './modules/pagination';
+
+@import './layouts/grids';
+@import './layouts/gnb';
