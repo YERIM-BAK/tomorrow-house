@@ -20,6 +20,7 @@
   @media screen and (max-width: $md-breakpoint - 1) {
     display: none !important;
   }
+
   @media screen and (min-width: $lg-breakpoint) {
     display: none !important;
   }
@@ -38,13 +39,13 @@
 }
 
 .md-hidden {
-  @media screen and (min-width: $md-breakpoint) and (max-width: $lg-breakpoint - 1) {
+  @media screen and (min-width: $md-breakpoint) and(max-width: $lg-breakpoint - 1) {
     display: none !important;
   }
 }
 
 .lg-hidden {
-  @media screen and (max-width: $lg-breakpoint -1) {
+  @media screen and (min-width: $lg-breakpoint) {
     display: none !important;
   }
 }
