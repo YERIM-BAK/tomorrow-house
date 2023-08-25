@@ -1,11 +1,10 @@
 .lnb {
-  $lnb-height-sm: 40px;
-  $lnb-height-md: 50px;
   $lnb-link-padding: 8px;
   $grid-margin: $sm-margin + $gutter / 2;
 
   @include noscrollbar;
   overflow-x: auto;
+  background-color: $white;
 
   &-list {
     @include inline-flexbox(start);
@@ -24,7 +23,6 @@
         color: $blue;
         border-bottom-color: $blue;
       }
-
     }
 
     a {
@@ -39,7 +37,6 @@
         color: $blue;
       }
     }
-
   }
 
   @include responsive(T) {
@@ -61,5 +58,4 @@
       }
     }
   }
-
 }
