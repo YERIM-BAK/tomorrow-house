@@ -6,6 +6,7 @@ const productCarouselSlider = tns({
   navAsThumbnails: true,
   arrowKeys: true,
   autoplay: true,
+  autoplayHoverPause: true,
   autoplayButtonOutput: false,
   mouseDrag: true,
   preventScrollOnTouch: true,
