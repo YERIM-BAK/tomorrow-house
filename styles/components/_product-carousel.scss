@@ -1,6 +1,4 @@
 .product-carousel {
-  $grid-margin: 15px;
-
   position: relative;
 
   &-slider {
@@ -67,9 +65,11 @@
 
     .thumbnail-item {
       margin: 0 8px 0 0;
+
       &:last-child {
         margin: 0;
       }
+
       &.tns-nav-active {
         button {
           border: 2px solid $blue;
@@ -113,6 +113,7 @@
     .thumbnail-item {
       margin-right: 0;
       margin-bottom: 8px;
+
       button,
       img {
         width: 75px;
