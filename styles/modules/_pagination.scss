@@ -9,6 +9,7 @@
 
 .pagination {
   @include flexbox;
+
   .page-control {
     @extend %page-item-base;
     width: 26px;
@@ -16,6 +17,7 @@
 
     &.page-prev {
       margin-right: 24px;
+
       .ic-chevron {
         transform: rotate(90deg);
       }
@@ -23,6 +25,7 @@
 
     &.page-next {
       margin-left: 24px;
+
       .ic-chevron {
         transform: rotate(-90deg);
       }
@@ -40,6 +43,7 @@
   .page-list {
     @include flexbox;
   }
+
   .page-item {
     margin-right: 4px;
 
@@ -47,13 +51,15 @@
     button {
       @extend %page-item-base;
       min-width: 26px;
-      padding: 0 4px;
+      padding: 0 4px 2px;
+
       &:hover {
         color: $blue;
       }
     }
 
     &.is-active {
+
       a,
       button {
         color: $white;
