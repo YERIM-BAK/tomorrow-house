@@ -3,6 +3,7 @@
 
   &-header {
     margin-bottom: 16px;
+
     .info-brand {
       @include text-style(13, $blue);
       font-weight: 700;
@@ -35,9 +36,11 @@
 
   &-price {
     margin-bottom: 16px;
+
     .info-original-price {
       @include flexbox(start);
     }
+
     .discount-rate {
       @include inline-flexbox(start);
       font-size: 20px;
@@ -88,7 +91,6 @@
 
   @include responsive(T) {
     padding: 0;
-    margin-bottom: 40px;
 
     &-header {
       .info-brand {
@@ -121,6 +123,7 @@
       .discount-rate {
         align-items: flex-end;
         margin-right: 16px;
+
         .rate {
           font-size: 44px;
           line-height: 36px;
