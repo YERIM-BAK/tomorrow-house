@@ -1,7 +1,9 @@
 .global-footer {
   padding-top: 32px;
   padding-bottom: 40px;
+  margin-bottom: $order-cta-height;
   background-color: $background;
+
   &-title {
     @include text-style(13, $dark);
     font-weight: 700;
@@ -44,6 +46,8 @@
   }
 
   @include responsive(D) {
+    margin-bottom: 0;
+
     &-title {
       @include text-style(14);
     }
@@ -60,6 +64,7 @@
       a:hover {
         text-decoration: underline;
       }
+
       &:not(:last-child)::after {
         margin: 0 8px;
         content: '|';
